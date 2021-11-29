@@ -1,7 +1,7 @@
 # Личный проект «Пинк» 
 
 * Студент: [Sofya Tarnalitskaya](https://up.htmlacademy.ru/adaptive/24/user/389189).
-* Наставник: `Неизвестно`.
+* Наставник: [Влад Башилов](https://htmlacademy.ru/profile/id167603).
 
 ---
 
