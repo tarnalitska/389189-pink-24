@@ -17,16 +17,14 @@
           <button class="nav__toggle">
             <span class="visually-hidden">Открыть меню</span>
           </button>
-          <div class="nav__wrapper">
-            <ul class="nav__list">
-              <li class="nav__item">
-                <a href="#">Главная</a>
-              </li>
-              <li class="nav__item">Фотографии</li>
-              <li class="nav__item">Конкурс</li>
-              <li class="nav__item">HTML Academy</li>
-            </ul>
-          </div>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="nav__item">Фотографии</li>
+            <li class="nav__item">Конкурс</li>
+            <li class="nav__item">HTML Academy</li>
+          </ul>
         </nav>
       </div>
   </header>
@@ -38,8 +36,8 @@
       <p class="catalog__text"><span>Взгляните на фотографии, которые выкладывают пользователи!</span>
         <span>Видите, как не хватает ваших?</span>
       </p>
-      <div class="catalog__item">
-        <img class="catalog__fullscreen" src="img/panorama-desktop.png" alt="Панорама">
+      <div class="catalog__item catalog__item--fullscreen">
+        <img class="catalog__image" src="img/panorama-desktop.png" alt="Панорама">
         <div class="catalog__card">
           <p class="catalog__text"><b>Анна</b><span class="catalog__time">(5 минут назад)</span></p>
           <p class="catalog__text">
@@ -131,8 +129,8 @@
           </div>
         </div>
         <div class="catalog__buttons">
-          <a href="#">Запостить</a>
-          <a href="#">Отмена</a>
+          <button class="catalog__buttons--apply">Запостить</button>
+          <button class="catalog__buttons--cancel">Отмена</button>
         </div>
       </div>
     </section>
